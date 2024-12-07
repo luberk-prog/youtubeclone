@@ -1,0 +1,102 @@
+
+<title>
+    Home
+</title>
+
+
+<body>
+
+    
+
+<div class="content">
+    <h1>
+        Hunxho Music
+    </h1>
+    <a href="C:\Users\Administrator\Documents\new project\login-page\login-page.html">Login</a>
+</div>
+
+</body>
+
+<style>
+
+    .content a:hover{
+
+        background-color: white;
+        color: black;
+
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: antiquewhite;
+
+
+    }
+
+    .content{
+        text-align: center;
+
+    }
+    .content h1{
+        font-size: 100px;
+        color: white;
+        font-weight: 600;
+    }
+
+
+    .content a{
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        font-size: 25px;
+        border: 2px solid white;
+        padding: 14px 70px;
+        border-radius: 50px;
+        margin-top: -30px;
+    }
+
+    .content{
+        width: 720px;
+        background: transparent;
+        color: white;
+        border-radius: 10px;
+        padding: 30px 40px;
+        border: 2px solid rgba(225, 225, 225, .2);
+        backdrop-filter: blur(20px);
+    }
+
+    .bg-video{
+
+position: absolute;
+right: 0;
+left: 0;
+bottom: 0;
+z-index: -1;
+
+
+}
+@media (min-aspect-ratio:16/9){
+.bg-video{
+    width: 100%;
+    height: auto;
+
+}
+}
+
+@media (max-aspect-ratio:16/9){
+.bg-video{
+    width: auto;
+    height: 100%;
+    
+}
+}
+</style>
+
+<video autoplay loop muted plays-inline class="bg-video">
+    <source src="c:\Users\Administrator\Documents\new project\login-page\vid pics\PARTYNEXTDOOR - No Chill (Official Music Video).mp4" type="video/mp4">
+
+</video>
+
